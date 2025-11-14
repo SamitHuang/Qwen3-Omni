@@ -19,6 +19,8 @@ Run qwen3omni on a single card (~80G mem)
 export CUDA_VISIBLE_DEVICES=0
 python test_infer.py
 ```
+> multi-cards will lead to errors
+
 
 TODOs:
 - [ ] audio input raises audioread.ffdec.NotInstalledError
